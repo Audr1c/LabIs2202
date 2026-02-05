@@ -1,0 +1,17 @@
+./build/RISCV/gem5.opt configs/example/gem5_library/riscv-fs.py
+telnet localhost 3456
+cd Benchmarks/
+Benchmaks :
+HS 
+./3D.riscv 64 1 1 input/power_64x8 input/temp_64x8 output.out
+OMP_NUM_THREADS=3 
+./HotSpot3D/3D.riscv 64 1 1 /HotSpot3D/input/power_64x8 /HotSpot3D/input/temp_64x8 /HotSpot3D/output.out
+SRAD :
+./srad.riscv 512 512 0 127 0 127 1 0.5 2
+./SRAD/srad.riscv 512 512 0 127 0 127 4 0.5 2
+LUD
+./LUD/lud.riscv -s 256 -n 4
+Chekpoint 
+./../checkpoint.riscv
+moving
+mv gem5/m5out/stats.txt OutputStats/Cache/SRAD/SRAD_L1D2K_L1I2K_L264K.txt

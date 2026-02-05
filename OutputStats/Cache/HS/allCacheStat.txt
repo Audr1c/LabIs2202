@@ -1,0 +1,90 @@
+
+------ for HS_L1D2K_L1I2K_L264K.txt ------
+2	L1D
+2	L1I
+64	L2
+0.001074	SimuTime
+294886	L1D Hit
+766280	L1I Hit
+417	L1D Miss
+17	L1I Miss
+526	L2 Hit
+284	L2 Miss
+1.26	RealTime
+
+
+
+------ for HS_L1D1K_L1I2K_L21K.txt ------
+1	L1D
+2	L1I
+1	L2
+0.001134	SimuTime
+294097	L1D Hit
+766280	L1I Hit
+1206	L1D Miss
+17	L1I Miss
+683	L2 Hit
+2085	L2 Miss
+2.68	RealTime
+
+
+
+------ for HS_L1D1K_L1I2K_L264K.txt ------
+1	L1D
+2	L1I
+1	L2
+0.001083	SimuTime
+294091	L1D Hit
+766280	L1I Hit
+1212	L1D Miss
+17	L1I Miss
+2530	L2 Hit
+293	L2 Miss
+2.0	RealTime
+
+
+
+------ for HS_L1D2K_L1I2K_L264K.txt ------
+2	L1D
+2	L1I
+1	L2
+0.001074	SimuTime
+294886	L1D Hit
+766280	L1I Hit
+417	L1D Miss
+17	L1I Miss
+526	L2 Hit
+284	L2 Miss
+1.26	RealTime
+
+
+
+------ for HS_L1D4K_L1I2K_L264K.txt ------
+4	L1D
+2	L1I
+1	L2
+0.001074	SimuTime
+294905	L1D Hit
+766280	L1I Hit
+398	L1D Miss
+17	L1I Miss
+506	L2 Hit
+289	L2 Miss
+2.27	RealTime
+
+
+
+------ for HS_L1D512_L1I2K_L21K.txt ------
+0.512	L1D
+2	L1I
+1	L2
+0.002426	SimuTime
+263681	L1D Hit
+774579	L1I Hit
+34681	L1D Miss
+676	L1I Miss
+40244	L2 Hit
+64265	L2 Miss
+1.6	RealTime
+
+
